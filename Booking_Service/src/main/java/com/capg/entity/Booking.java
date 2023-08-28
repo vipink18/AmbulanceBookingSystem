@@ -19,6 +19,7 @@ import lombok.NoArgsConstructor;
 @Table(name="Booking_table")
 public class Booking {
 
+	
     @Id
     @NotBlank(message = "Booking ID is required")
     private String bookingId;
